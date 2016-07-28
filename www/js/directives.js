@@ -83,7 +83,7 @@ angular.module('starter.directives', [])
 						break;
 					}
 				}
-				popup.setContent('<div class="cadInfo">' + (res ? res : 'В данной точке участки не найдены. <br><span class="red">Возможно участок свободен !</span>') + '</div>');
+				popup.setContent('<div class="cadInfo">' + (res ? res : 'В данной точке объекты не найдены.<br><div class="red">Возможно участок свободен !</div>') + '</div>');
 			});
 			
 			
