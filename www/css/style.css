@@ -8,3 +8,17 @@ map {
 .scroll {
   height: 100%;
 }
+.leaflet-gmx-location-window {
+	width: inherit;
+	min-width: 266px;
+}
+.cadInfo .cadNum {
+    font-weight: bold;
+}
+.cadInfo .address {
+    font-style: italic;
+    font-family: sans-serif;
+}
+.cadInfo .red {
+    color: red;
+}
