@@ -22,3 +22,17 @@ map {
 .cadInfo .red {
     color: red;
 }
+.leaflet-map-pane {
+    cursor: crosshair;
+}
+.cadInfo .showPolygon {
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 2px;
+}
+.cadInfo .cadItem  {
+    border-width: 1px;
+    border-style: dashed;
+    padding: 2px;
+    margin: 2px;
+}
